@@ -1,7 +1,6 @@
 ## a. Datos personales
 - **Nombre:** Bryan Sebastian Ruiz  
 - **Edad:** 20 años
-- **Fotografía:**
 ![Mi fotografía](img/foto1.jpg)
 
 ---
