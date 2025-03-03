@@ -1,0 +1,138 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #111;
+    color: white;
+    text-align: center;
+}
+
+/* Estilos generales */
+.full-page {
+    padding: 20px;
+}
+
+/* Navegación */
+nav {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 15px 0;
+    text-align: center;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+.nav-links a:hover {
+    color: cyan;
+}
+
+/* Menú hamburguesa (oculto en escritorio) */
+.hamburguer-menu {
+    display: none;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+/* Sección "Acerca" con columnas en PC */
+.about-content {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+    gap: 20px;
+    max-width: 900px;
+    margin: auto;
+}
+
+/* Imagen en "Acerca" */
+.about-content img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+/* Lista de habilidades en 3 columnas en PC */
+.skills-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+}
+
+.skills-list li {
+    background: #222;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Proyectos en 2 columnas en PC */
+.projects-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    max-width: 900px;
+    margin: auto;
+}
+
+.project-card {
+    background: #222;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.project-card img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+/* 📱 Responsive para móviles */
+@media (max-width: 580px) {
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        background: black;
+        position: absolute;
+        width: 100%;
+        top: 60px;
+        left: 0;
+        padding: 20px 0;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+
+    .hamburguer-menu {
+        display: block;
+        position: absolute;
+        top: 15px;
+        right: 20px;
+        color: white;
+    }
+
+    /* Hacer todo una columna */
+    .about-content,
+    .skills-list,
+    .projects-container {
+        grid-template-columns: 1fr;
+    }
+}
