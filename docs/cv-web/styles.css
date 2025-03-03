@@ -1,0 +1,103 @@
+/* 1. Tamaño de letra en html y body */
+html {
+    font-size: 100%;
+}
+body {
+    font-size: 1rem;
+}
+
+/* 2. Propiedad box-sizing en todos los elementos */
+* {
+    box-sizing: border-box;
+}
+
+/* 3. Fuente de Google Fonts */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* 4. Color de letra y fondo del body */
+body {
+    color: #333;
+    background-color: #a75959;
+}
+
+/* 5. Color de los enlaces */
+a {
+    color: #548cc9;
+    text-decoration: none;
+}
+
+/* 6. Color de los enlaces en hover */
+a:hover {
+    color: #c13434;
+    text-decoration: underline;
+}
+
+/* 7. Imágenes responsivas */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* 8. Variables en CSS */
+:root {
+    --main-color: #0f355e;
+    --secondary-color: #ce4f4f;
+    --background-color: #f5f5f5;
+}
+
+/* 9. Selectores de identificador */
+#inicio {
+    padding: 20px;
+}
+
+#acerca {
+    padding: 20px;
+}
+
+#contacto {
+    padding: 20px;
+}
+
+/* 10. Selectores de clases */
+.titulo {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.destacado {
+    background-color: var(--background-color);
+    padding: 10px;
+}
+
+.boton {
+    background-color: var(--main-color);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+/* 11. Selectores descendientes */
+nav ul li {
+    list-style: none;
+    display: inline;
+    margin-right: 10px;
+}
+
+section p {
+    line-height: 1.6;
+}
+
+article img {
+    border-radius: 5px;
+}
+
+/* 12. Selectores de grupo */
+header, footer {
+    background-color: var(--secondary-color);
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
