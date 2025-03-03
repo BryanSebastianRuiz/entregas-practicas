@@ -7,4 +7,5 @@
 - [Presentación Práctica-1](practica-1.pptx)
 - [Presentación Práctica-2](practica-2.md)
 - [Presentación Práctica-3](practica-3.md)
-- [Presentación Práctica-4](https://bryansebastianruiz.github.io/entregas-practicas/)
+- [Presentación Práctica-4](https://bryansebastianruiz.github.io/entregas-practicas/cv-web/index.html)
+- [Presentación Práctica-5_6](https://bryansebastianruiz.github.io/entregas-practicas/cv-web-v2/index.html)
