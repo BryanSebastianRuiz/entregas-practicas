@@ -9,5 +9,5 @@
 - [Presentación Práctica-3](practica-3.md)
 - [Presentación Práctica-4](https://bryansebastianruiz.github.io/entregas-practicas/cv-web/index.html)
 - [Presentación Práctica-5_6](https://bryansebastianruiz.github.io/entregas-practicas/cv-web-v2/index.html)
-- [Presentación Práctica-5_6](https://bryansebastianruiz.github.io/entregas-practicas/Actividad7/index.html)
-- [Presentación Práctica-5_6](https://bryansebastianruiz.github.io/entregas-practicas/Actividad8/index.html)
+- [Presentación Práctica-7](https://bryansebastianruiz.github.io/entregas-practicas/practica-7/index.html)
+- [Presentación Práctica-8](https://bryansebastianruiz.github.io/entregas-practicas/practica-8/index.html)
