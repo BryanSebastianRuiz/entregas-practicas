@@ -13,3 +13,4 @@
 - [Presentación Práctica-8](https://bryansebastianruiz.github.io/entregas-practicas/practica-8/index.html)
 - [Presentación Práctica-9](https://bryansebastianruiz.github.io/entregas-practicas/practica-9/index.html)
 - [Presentación Práctica-10](https://bryansebastianruiz.github.io/entregas-practicas/practica-10/index.html)
+- [Presentación Práctica-11](/docs/practica-11/mi-app.md)
