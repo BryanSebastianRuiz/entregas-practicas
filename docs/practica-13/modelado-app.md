@@ -1,0 +1,1 @@
+![Diagrama Relacional](imagen1.png)
